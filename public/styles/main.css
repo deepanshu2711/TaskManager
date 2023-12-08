@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body ,html{
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.taskGenerator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    
+}
+
+.title{
+    color: #7743DB;
+    
+}
+
+.inputpart{
+    margin-top: 20px;
+}
+
+.Tasks{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: 500px;
+    margin-top: 500px;
+
+}
+
+
+.task{
+ margin-top: 10px;
+ background-color: white;
+ width: 500px;
+ height: 25px;
+}
+
+.button1{
+    background-color: red;
+    margin-left: 450px;
+    
+}
+
